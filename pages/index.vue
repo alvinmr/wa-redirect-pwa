@@ -32,10 +32,10 @@ export default {
   },
   methods: {
     chat(e) {
-      this.loading = true;
       if (this.nomor) {
         this.loading = false;
         window.location.href = `https://api.whatsapp.com/send?phone=${this.nomor}`;
+        this.loading = true;
       } else {
         e.preventDefault;
       }
