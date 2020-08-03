@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-center h-screen">
     <div class="flex flex-col self-center text-center">
-      <h1 class="mb-10 text-2xl font-bold tracking-widest text-center">WA REDIRECT🤙</h1>
+      <h1 class="mb-10 text-2xl font-bold tracking-widest text-center">WA DIRECT🤙</h1>
       <input
         class="p-3 overflow-hidden border-4 border-black focus:outline-none"
         type="number"
