@@ -9,6 +9,8 @@
         placeholder="Cth : 628537748362"
         autocomplete="off"
         v-model="nomor"
+        pattern="[0-9]*"
+        inputmode="numeric"
       />
       <a
         v-if="loading"
